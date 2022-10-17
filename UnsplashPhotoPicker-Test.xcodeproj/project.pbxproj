@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8DC9459C28FD661400AE9EE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9459B28FD661400AE9EE4 /* AppDelegate.swift */; };
-		8DC9459E28FD661400AE9EE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9459D28FD661400AE9EE4 /* SceneDelegate.swift */; };
 		8DC945A028FD661400AE9EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9459F28FD661400AE9EE4 /* ViewController.swift */; };
 		8DC945A328FD661400AE9EE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC945A128FD661400AE9EE4 /* Main.storyboard */; };
 		8DC945A528FD661800AE9EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC945A428FD661800AE9EE4 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		8DC9459828FD661400AE9EE4 /* UnsplashPhotoPicker-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UnsplashPhotoPicker-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC9459B28FD661400AE9EE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DC9459D28FD661400AE9EE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8DC9459F28FD661400AE9EE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DC945A228FD661400AE9EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DC945A428FD661800AE9EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				8DC9459B28FD661400AE9EE4 /* AppDelegate.swift */,
-				8DC9459D28FD661400AE9EE4 /* SceneDelegate.swift */,
 				8DC9459F28FD661400AE9EE4 /* ViewController.swift */,
 				8DC945A128FD661400AE9EE4 /* Main.storyboard */,
 				8DC945A428FD661800AE9EE4 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				8DC945A028FD661400AE9EE4 /* ViewController.swift in Sources */,
 				8DC9459C28FD661400AE9EE4 /* AppDelegate.swift in Sources */,
-				8DC9459E28FD661400AE9EE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +288,9 @@
 				INFOPLIST_FILE = "UnsplashPhotoPicker-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +300,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +316,9 @@
 				INFOPLIST_FILE = "UnsplashPhotoPicker-Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +328,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
