@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func showMainTab(){
         window = UIWindow()
         window?.backgroundColor = .white
-        let ctrl = ViewController()
+        let ctrl = TabBar()
         window?.rootViewController = ctrl
         window?.makeKeyAndVisible()
     }
