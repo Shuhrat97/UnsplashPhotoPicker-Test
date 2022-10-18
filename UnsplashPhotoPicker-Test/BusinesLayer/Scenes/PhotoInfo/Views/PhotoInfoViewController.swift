@@ -66,8 +66,8 @@ class PhotoInfoViewController: UIViewController {
     }
     
     func isFavourite()->Bool{
-        let isFavourite = UserPreferences.shared.favouritePhotos.contains { photo in
-            photo.id == photo.id
+        let isFavourite = UserPreferences.shared.favouritePhotos.contains { item in
+            item.id == photo.id
         }
         return isFavourite
     }

@@ -16,7 +16,6 @@
 		8DC8F5D728FE8CA10010C80C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC8F5D628FE8CA10010C80C /* Date+Extensions.swift */; };
 		8DC8F5D928FEA9A90010C80C /* UIAlert+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC8F5D828FEA9A90010C80C /* UIAlert+Extensions.swift */; };
 		8DC9459C28FD661400AE9EE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9459B28FD661400AE9EE4 /* AppDelegate.swift */; };
-		8DC945A028FD661400AE9EE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9459F28FD661400AE9EE4 /* ViewController.swift */; };
 		8DC945A528FD661800AE9EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC945A428FD661800AE9EE4 /* Assets.xcassets */; };
 		8DC945A828FD661800AE9EE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC945A628FD661800AE9EE4 /* LaunchScreen.storyboard */; };
 		8DC945B428FD7A8C00AE9EE4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC945B328FD7A8C00AE9EE4 /* TabBar.swift */; };
@@ -42,7 +41,6 @@
 		8DC8F5D828FEA9A90010C80C /* UIAlert+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlert+Extensions.swift"; sourceTree = "<group>"; };
 		8DC9459828FD661400AE9EE4 /* UnsplashPhotoPicker-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UnsplashPhotoPicker-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC9459B28FD661400AE9EE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DC9459F28FD661400AE9EE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DC945A428FD661800AE9EE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DC945A728FD661800AE9EE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DC945A928FD661800AE9EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 				8DC8F5CC28FE7DAC0010C80C /* PhotoInfo */,
 				8DDF127B28FDD10E00B17849 /* Favourite */,
 				8DC945B528FD7E1300AE9EE4 /* PhotoPicker */,
-				8DC9459F28FD661400AE9EE4 /* ViewController.swift */,
 				8DC945B328FD7A8C00AE9EE4 /* TabBar.swift */,
 			);
 			path = Scenes;
@@ -410,7 +407,6 @@
 				8DC945B428FD7A8C00AE9EE4 /* TabBar.swift in Sources */,
 				8DDF127F28FDD14700B17849 /* FavouritePhotosViewController.swift in Sources */,
 				8DC8F5D928FEA9A90010C80C /* UIAlert+Extensions.swift in Sources */,
-				8DC945A028FD661400AE9EE4 /* ViewController.swift in Sources */,
 				8DC8F5D028FE7DE60010C80C /* PhotoInfoPresenter.swift in Sources */,
 				8DC9459C28FD661400AE9EE4 /* AppDelegate.swift in Sources */,
 				8DC8F5D228FE7FA70010C80C /* PhotoInfoViewController.swift in Sources */,

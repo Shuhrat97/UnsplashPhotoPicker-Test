@@ -6,9 +6,7 @@
 //
 
 import Foundation
-//"total": 133,
-//  "total_pages": 7,
-//  "results": [
+
 struct FilterResponse:Codable{
     let total:Int
     let totalPages:Int
