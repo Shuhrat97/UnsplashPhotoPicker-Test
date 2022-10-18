@@ -131,7 +131,7 @@ extension PhotoPickerViewController:UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let item = photos[indexPath.row]
+        let item = isFiltered ? filteredPhotos[indexPath.row] : photos[indexPath.row]
         let isFavourite = UserPreferences.shared.favouritePhotos.contains { photo in
             photo.id == item.id
         }
